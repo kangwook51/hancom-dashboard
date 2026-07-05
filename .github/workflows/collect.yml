@@ -1,0 +1,49 @@
+name: ADX 일일 수집
+
+# 실행 시점: 매일 UTC 17:00 = 한국시간 새벽 2시. 수동 실행도 가능.
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+    inputs:
+      targetDate:
+        description: '수집할 날짜 (YYYY-MM-DD, 비우면 어제)'
+        required: false
+        default: ''
+
+# data.json을 커밋하려면 쓰기 권한 필요
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Node.js 설치
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: ADX 수집 실행
+        env:
+          ADX_API_KEY: ${{ secrets.ADX_API_KEY }}
+          ADX_COMPANY_ID: ${{ secrets.ADX_COMPANY_ID }}
+          ADX_BASE_URL: ${{ secrets.ADX_BASE_URL }}
+          FX_API_URL: ${{ secrets.FX_API_URL }}
+          FX_FALLBACK_RATE: ${{ secrets.FX_FALLBACK_RATE }}
+        run: node scripts/collect.mjs "${{ github.event.inputs.targetDate }}"
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/data.json
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "data: ADX 자동 수집 $(date -u +%Y-%m-%d)"
+            git push
+          fi
