@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T00:33:18.459Z",
+  "updated_at": "2026-11-17T23:41:21.080Z",
   "rows": [
     {
       "report_date": "2026-01-15",
@@ -16123,14 +16123,14 @@
       "app_name": "한컴독스",
       "os_type": "android",
       "bundle_id": "com.hancom.docs.suite",
-      "request_count": 179727,
-      "attempt_count": 197379,
-      "fill_count": 97172,
-      "impression_count": 68221,
-      "click_count": 571,
-      "revenue_usd": 120.20676261,
-      "net_revenue_usd": 102.17574822,
-      "revenue_krw": 162279
+      "request_count": 213590,
+      "attempt_count": 342171,
+      "fill_count": 150157,
+      "impression_count": 87460,
+      "click_count": 1832,
+      "revenue_usd": 228.05586208,
+      "net_revenue_usd": 193.84748277,
+      "revenue_krw": 307875
     },
     {
       "report_date": "2026-11-16",
@@ -16138,14 +16138,14 @@
       "app_name": "한컴독스",
       "os_type": "iphone",
       "bundle_id": "com.hancom.docs.app",
-      "request_count": 760140,
-      "attempt_count": 1399242,
-      "fill_count": 306346,
-      "impression_count": 207014,
-      "click_count": 932,
-      "revenue_usd": 161.46781521,
-      "net_revenue_usd": 137.24764293,
-      "revenue_krw": 217982
+      "request_count": 932562,
+      "attempt_count": 2570418,
+      "fill_count": 465394,
+      "impression_count": 309642,
+      "click_count": 2361,
+      "revenue_usd": 260.14535512,
+      "net_revenue_usd": 221.12355185,
+      "revenue_krw": 351196
     },
     {
       "report_date": "2026-11-16",
@@ -16153,14 +16153,14 @@
       "app_name": "한컴오피스",
       "os_type": "android",
       "bundle_id": "com.hancom.office.editor.netffice",
-      "request_count": 0,
-      "attempt_count": 293085,
-      "fill_count": 62742,
-      "impression_count": 32427,
-      "click_count": 189,
-      "revenue_usd": 36.80507881,
-      "net_revenue_usd": 31.28431699,
-      "revenue_krw": 49687
+      "request_count": 212172,
+      "attempt_count": 515091,
+      "fill_count": 132596,
+      "impression_count": 71780,
+      "click_count": 499,
+      "revenue_usd": 77.83058581,
+      "net_revenue_usd": 66.15599794,
+      "revenue_krw": 105071
     },
     {
       "report_date": "2026-11-16",
@@ -16168,14 +16168,14 @@
       "app_name": "한컴오피스",
       "os_type": "iphone",
       "bundle_id": "com.hancom.office.suite.netffice24",
-      "request_count": 0,
-      "attempt_count": 7517,
-      "fill_count": 2590,
-      "impression_count": 1083,
-      "click_count": 50,
-      "revenue_usd": 1.666807,
-      "net_revenue_usd": 1.41678595,
-      "revenue_krw": 2250
+      "request_count": 5885,
+      "attempt_count": 10360,
+      "fill_count": 5394,
+      "impression_count": 2016,
+      "click_count": 83,
+      "revenue_usd": 3.439196,
+      "net_revenue_usd": 2.9233166,
+      "revenue_krw": 4643
     },
     {
       "report_date": "2026-11-16",
@@ -16183,14 +16183,14 @@
       "app_name": "한컴오피스 viewer",
       "os_type": "android",
       "bundle_id": "com.tf.thinkdroid.viewer",
-      "request_count": 0,
-      "attempt_count": 3164785,
-      "fill_count": 327955,
-      "impression_count": 229987,
-      "click_count": 75892,
-      "revenue_usd": 6425.82171353,
-      "net_revenue_usd": 5461.9484565,
-      "revenue_krw": 8674859
+      "request_count": 2147117,
+      "attempt_count": 31599915,
+      "fill_count": 666629,
+      "impression_count": 410068,
+      "click_count": 165900,
+      "revenue_usd": 11604.08920544,
+      "net_revenue_usd": 9863.47582462,
+      "revenue_krw": 15665520
     },
     {
       "report_date": "2026-11-16",
@@ -16198,14 +16198,14 @@
       "app_name": "한컴오피스 viewer",
       "os_type": "iphone",
       "bundle_id": "com.haansoft.HancomOfficeViewer",
-      "request_count": 0,
-      "attempt_count": 1346977,
-      "fill_count": 170275,
-      "impression_count": 62626,
-      "click_count": 1302,
-      "revenue_usd": 143.765046,
-      "net_revenue_usd": 122.2002891,
-      "revenue_krw": 194083
+      "request_count": 517048,
+      "attempt_count": 1731331,
+      "fill_count": 225254,
+      "impression_count": 87202,
+      "click_count": 1799,
+      "revenue_usd": 174.99031358,
+      "net_revenue_usd": 148.74176654,
+      "revenue_krw": 236237
     },
     {
       "report_date": "2026-11-16",
@@ -16213,14 +16213,14 @@
       "app_name": "한컴오피스(Global)",
       "os_type": "android",
       "bundle_id": "com.hancom.office.editor.global",
-      "request_count": 0,
-      "attempt_count": 5000,
-      "fill_count": 774,
-      "impression_count": 367,
-      "click_count": 12,
-      "revenue_usd": 1.952939,
-      "net_revenue_usd": 1.65999815,
-      "revenue_krw": 2636
+      "request_count": 2343,
+      "attempt_count": 7030,
+      "fill_count": 1303,
+      "impression_count": 605,
+      "click_count": 31,
+      "revenue_usd": 3.15296665,
+      "net_revenue_usd": 2.68002165,
+      "revenue_krw": 4257
     },
     {
       "report_date": "2026-11-16",
@@ -16228,14 +16228,14 @@
       "app_name": "한컴오피스(Global)",
       "os_type": "iphone",
       "bundle_id": "com.hancom.office.editor.global",
-      "request_count": 0,
-      "attempt_count": 351,
-      "fill_count": 67,
-      "impression_count": 22,
+      "request_count": 254,
+      "attempt_count": 505,
+      "fill_count": 89,
+      "impression_count": 29,
       "click_count": 0,
-      "revenue_usd": 0.016897,
-      "net_revenue_usd": 0.01436245,
-      "revenue_krw": 23
+      "revenue_usd": 0.020677,
+      "net_revenue_usd": 0.01757545,
+      "revenue_krw": 28
     }
   ]
 }
